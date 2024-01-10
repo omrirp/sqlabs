@@ -1,0 +1,15 @@
+body {
+    background-color: #263238 !important;
+    color: #f5f5f5 !important;
+    text-align: center;
+}
+
+div.container {
+    margin: auto;
+    margin-top: 16px;
+    width: 80%;
+}
+div.hourImgContainer {
+    display: flex;
+    justify-content: center;
+}
