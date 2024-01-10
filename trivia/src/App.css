@@ -1,0 +1,66 @@
+div.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.triviaHeader {
+    background-color: #03a9f4;
+    margin-top: 30px;
+    padding: 8px;
+}
+
+#questionNumText {
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.levelText {
+    font-size: x-large;
+    margin: 20px 0px 0px 16px;
+}
+
+#questionText {
+    font-size: 20px;
+    margin: 8px 50px;
+    font-weight: bold;
+    color: #616161;
+}
+
+#timerContainer {
+    margin-top: 30px;
+    background-color: #4caf50; /* Green background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow */
+    color: #fff; /* White text color */
+}
+
+#timerText {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#timerContainer {
+    width: 200px;
+}
+
+/* Animated pulsing effect for the timer text */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+#timerText:hover {
+    animation: pulse 1s infinite;
+}
